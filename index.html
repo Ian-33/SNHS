@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style-folder/cover-page.css">
+    <link rel="stylesheet" href="media-query/component1.css">
+    <script src="https://kit.fontawesome.com/7060eadca6.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title> Silanga National High School</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <style>
+        .Container1 {
+            background: url('src/Background1-1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 700px;
+            margin-top: 0;
+           
+        }
+
+        .Container1::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 101%;
+            background-color: rgba(9, 1, 169, 0.6);
+            z-index: 1;
+         }
+
+        @media only screen and (max-width: 480px){
+        .Container1{
+            background: url('src/Background1-2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        }
+
+        @media only screen and (max-width: 400px) {
+        .Container1 {
+            height: 680px;
+         }
+
+        .Container1::before {
+             height: 102%;
+        }
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <!-- NAVIGATION SECTION -->
+    <nav>
+        <div class="logo"> 
+            <img class="Logo" src="src/Logo.png">
+        </div>
+        <h1 class="Header1"> SILANGA NATIONAL HIGH SCHOOL </h1>
+    </nav>
+     <!-- NAVIGATION SECTION -->
+
+     <!--------- BODY SECTION --------->
+    <div class="Container1">
+    </div>
+     <div data-aos="fade-down"  data-aos-duration="3000" class="Logo-container">
+        <img class="Logo-header" src="src/Logo.png">
+        <div style="margin-left: 15px;">
+           <h2 class="Header2"> SILANGA NATIONAL HIGH SCHOOL </h2>
+        </div>
+        <div class="Sub-container">
+            <p class="Sub-header1"> Welcome to our school! We're excited to have you join our community and start your journey with us. </p>
+            <p class="Sub-header2"> We Dream. We Explore. We Succeed. </p>
+        </div>
+  </div>
+</div>
+
+    <div class="greens">
+    <div class="About-container">
+        <div data-aos="fade-bottom"  data-aos-duration="2000" class="aos">
+        <h1 class="About-header"> ABOUT US </h1>
+    </div>
+        <div data-aos="fade-right"  data-aos-duration="2000" class="aos">
+        <div class="Text1">
+            <h2 class="Sub-text1"> What's in Silanga National High School? </h2>
+            <p class="P1"> Silnga National High School is a secondary school that offers a Technology and 
+                Livelihood curriculum. The school comprises grades 7 to 12. In the senior high 
+                curriculum, the school offers various TVL tracks, including EIM, ICT, EPAS, and more.
+            </p>
+        </div>
+        </div>
+        <div class="Text2">
+            <h2 class="Sub-text2"> Rating </h2>
+        <div class="Star">
+            <p style="font-family: 'Montserrat', sans-serif; padding-left: 0; font-size: 23px;"> 
+                <span class="Rating-number">4.7/5</span>
+                <i class="fa-solid fa-star" style="color: #000000;"></i> 
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <i class="fa-solid fa-star" style="color: #000000;"></i>
+                <span style="position: relative; display: inline-block; color: #000000; width: 1em; height: 0.84em; margin-left: -12px;">
+                    <i class="fa-solid fa-star" style="position: absolute; width: 68%; overflow: hidden;"></i>
+                    <i class="fa-regular fa-star" style="position: absolute;"></i> 
+                </span>
+            </p>
+            <cite class="Cite1"> (Source: Silanga National High School Facebook Page) </cite>
+        </div>
+    </div>
+    </div>
+</div>
+
+<div data-aos="fade-right"  data-aos-duration="3000" class="aos">
+    <div class="About-container2">
+        <div class="Map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d488.15707627633634!2d124.84066931677825!3d11.817292816133584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3309cd4cfb2a8cbb%3A0x41468885bbe7224b!2sSilanga%20National%20High%20School!5e0!3m2!1sen!2sph!4v1719494878280!5m2!1sen!2sph" width="91%" height="300px" style="border: 3px solid #3fd549;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</div>
+    <div class="Vr"></div>
+
+    <!--------- BODY SECTION --------->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>
